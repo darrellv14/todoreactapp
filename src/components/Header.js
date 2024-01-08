@@ -1,5 +1,6 @@
+import styles from '../style.module.css';
 const Header = () => {
-  return <div>To Do React App</div>;
+  return <div className={styles.header}>To Do React App</div>;
 };
 
 export default Header;
